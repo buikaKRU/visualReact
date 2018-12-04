@@ -12,6 +12,10 @@ body {
 
   min-height: 100vh;
   background: $darkGreen;
+
+  *{
+    transition: 0.5s all;
+  }
 }
 
 

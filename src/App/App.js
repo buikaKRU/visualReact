@@ -55,7 +55,7 @@ class App extends Component {
                   children: [
                     {
                       type: "SingleProject",
-                      ID: 2342,
+                      ID: 2342243232,
                       children: [
                         {
                           type: "Image",
@@ -87,9 +87,44 @@ class App extends Component {
   }
 
 
+  addModuleHandler = (newType, parent) => {
+    const newModule = {
+      type: newType,
+      created:  new Date().getTime(),
+    }
+
+    newModule.ID = newModule.type +'-'+ newModule.created;
+
+    console.log('newModule = ', newModule);
+
+    this.findID(this.state.data, parent, newModule)
+    
+  }
+
+
+  findID = (data, parentID, newModule) => {
+    console.log('parent = ', parentID);
+
+    if (data.children){
+      data.children.map(element => {
+        console.log('current element.id is = ', element.ID);
+        if (element.ID === parentID){
+          console.log("*************** We've got it! on ", element.type)
+          return;
+        } else {
+          console.log('another loop');
+          this.findID(element, parentID, newModule)
+        }
+      })
+    } else {
+      console.log(data, 'has no children');
+      
+    }
+  }
+
+
 
   renderChildren = (data, i) => {
-    
     console.log('data = ', data, "for i = ", i);
     
 
@@ -102,7 +137,8 @@ class App extends Component {
           <Module id={element.ID}
           type={element.type}
           children={this.renderChildren(element, i+1)}
-          key={element.id}>
+          data={element}
+          key={element.ID}>
           </Module>
         )
       })
@@ -110,7 +146,6 @@ class App extends Component {
     }
     console.log('no children for = ', data.type);
     return null;
-    
   }
 
 
@@ -119,15 +154,20 @@ class App extends Component {
 
     const content = (
       <Module
-        id={this.state.data.ID}
         type={this.state.data.type}
         children={this.renderChildren(this.state.data, 1)}>
-      </Module>)
+      </Module>
+      )
+
 
     return (
       <div className="App">
         
        {content}
+
+       <button onClick={()=> {
+         this.addModuleHandler("div", 3414)
+       }}>TEST</button>
 
       </div>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Module.scss';
-import ButtonAdd from './ButtonAdd/ButtonAdd';
+import AddModule from './AddModule/AddModule';
 
 
 const module = (props) => {
@@ -15,7 +15,9 @@ const module = (props) => {
 
             <div className="moduleContent">
                 {props.children}
-              <ButtonAdd/>  
+               <AddModule data={props.data}>
+
+               </AddModule>
             </div>
         </div>
     )

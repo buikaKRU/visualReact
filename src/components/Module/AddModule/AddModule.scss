@@ -4,9 +4,10 @@
 
 
 
-.buttonAdd{
+.addModule{
 
     display: inline-block;
+    position: relative;
 
     border-radius: 50%;
 
@@ -21,4 +22,15 @@
     &:hover{
         opacity: 1;
     }
+}
+
+
+
+.formBox{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: $padding;
+    background: $darkGreen;
+    z-index: 1000;
 }

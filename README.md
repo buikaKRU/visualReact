@@ -12,7 +12,7 @@ Some list to test:
 
 another test list:
 - [x] Finish my changes
-- [ ] Push my commits to GitHub
+- [ ] Push my commits to **GitHub**
 - [ ] Open a pull request
 
 <!-- Auto Generated Below -->
@@ -20,11 +20,11 @@ another test list:
 
 ## Properties
 
-| Property             | Attribute | Description                                                                                                                                                               | Type      | Default         |
-| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------- |
-| `test`               | `test`    | The test should have one of following values: 'information'((default) only for information); 'warning' (for warning notification); 'critical' (for super important stuff) | `string`  | `'information'` |
-| `title` _(required)_ | `title`   | The title of the element                                                                                                                                                  | `string`  | `undefined`     |
-| `visible`            | `visible` | Component stays hidden unless this atribute is set to true. Component hiddes out when set to false                                                                        | `boolean` | `false`         |
+| Property             | Attribute | Description                                                                                                                                                                           | Type      | Default         |
+| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------- |
+| `test`               | `test`    | The test should have one of following values: 88'information'88((default) only for information); 88'warning'88 (for warning notification); 88'critical'88 (for super important stuff) | `string`  | `'information'` |
+| `title` _(required)_ | `title`   | The title of the element                                                                                                                                                              | `string`  | `undefined`     |
+| `visible`            | `visible` | Component stays hidden unless this atribute is set to true. Component hiddes out when set to false                                                                                    | `boolean` | `false`         |
 
 
 ----------------------------------------------

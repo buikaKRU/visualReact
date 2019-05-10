@@ -5,15 +5,20 @@
 
 This is some text as a description. The question is if it's going to stay?
 
-Some list to test:
-- item 1
-- item 2
-    - item 2.1
-
-another test list:
+## How to use it
+### Do this:
 - [x] Finish my changes
-- [ ] Push my commits to **GitHub**
-- [ ] Open a pull request
+- [X] Push my commits to **GitHub**
+- [X] Open a pull request
+
+### Don't do this:
+- [] bla bla bla
+- [] never do that
+
+
+|To do:            | Not to do:            |
+|------------------|-----------------------|
+
 
 <!-- Auto Generated Below -->
 
@@ -22,7 +27,7 @@ another test list:
 
 | Property             | Attribute | Description                                                                                                                                                                                                   | Type                                      | Default         |
 | -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------- |
-| `someOtherString`    | --        | It is not so importent, it's for testing purpose only                                                                                                                                                         | `["warning", "somethingElse", "success"]` | `undefined`     |
+| `someOtherString`    | --        | It is not so importent, it's for testing purpose only  [ {value: 'warning', description :'for warnings'}, {value: 'success', description :'for succeeded notifications'}, ]                                   | `["warning", "somethingElse", "success"]` | `undefined`     |
 | `test`               | `test`    | The test should have one of following values: **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff)                       | `string`                                  | `'information'` |
 | `title` _(required)_ | `title`   | The title of the element                                                                                                                                                                                      | `string`                                  | `undefined`     |
 | `visible`            | `visible` | Component stays hidden unless this atribute is set to true.   Component hiddes out when set to false another test list: - [x] Finish my changes - [ ] Push my commits to **GitHub** - [ ] Open a pull request | `boolean`                                 | `false`         |

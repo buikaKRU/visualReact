@@ -20,11 +20,12 @@ another test list:
 
 ## Properties
 
-| Property             | Attribute | Description                                                                                                                                                                                                   | Type      | Default         |
-| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------- |
-| `test`               | `test`    | The test should have one of following values: **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff)                       | `string`  | `'information'` |
-| `title` _(required)_ | `title`   | The title of the element                                                                                                                                                                                      | `string`  | `undefined`     |
-| `visible`            | `visible` | Component stays hidden unless this atribute is set to true.   Component hiddes out when set to false another test list: - [x] Finish my changes - [ ] Push my commits to **GitHub** - [ ] Open a pull request | `boolean` | `false`         |
+| Property             | Attribute | Description                                                                                                                                                                                                   | Type                                      | Default         |
+| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------- |
+| `someOtherString`    | --        | It is not so importent, it's for testing purpose only                                                                                                                                                         | `["warning", "somethingElse", "success"]` | `undefined`     |
+| `test`               | `test`    | The test should have one of following values: **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff)                       | `string`                                  | `'information'` |
+| `title` _(required)_ | `title`   | The title of the element                                                                                                                                                                                      | `string`                                  | `undefined`     |
+| `visible`            | `visible` | Component stays hidden unless this atribute is set to true.   Component hiddes out when set to false another test list: - [x] Finish my changes - [ ] Push my commits to **GitHub** - [ ] Open a pull request | `boolean`                                 | `false`         |
 
 
 ----------------------------------------------

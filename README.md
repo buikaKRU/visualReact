@@ -20,8 +20,24 @@ This is some text as a description. The question is if it's going to stay?
 |------|-----------|
 |jkjl jkjk | jjiojo jiojo jiojoij|
 |  | jjlkjl|
+|```diff |
+|+ this will be highlighted in green |
+|- this will be highlighted in red |
+|``` |
 
 ------------------
+
+### Do this:
+```diff
++ this will be highlighted in green
++ this will be highlighted in red
+```
+
+### Don't do this:
+```diff
+- this will be highlighted in green
+- this will be highlighted in red
+```
 
 
 <!-- Auto Generated Below -->
@@ -29,12 +45,12 @@ This is some text as a description. The question is if it's going to stay?
 
 ## Properties
 
-| Property             | Attribute   | Description                                                                                                                                                                                                                                                                                                                                                      | Type                                                    | Default         |
-| -------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------- |
-| `infoType`           | `info-type` | The atribute should have one of following values:  **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff)                                                                                                                                                                     | `"critical" \| "information" \| "success" \| "warning"` | `'information'` |
-| `test`               | `test`      | ## Installation Use the package manager [pip](https://pip.pypa.io/en/stable/) to **`install`** foobar. ```js      * information 'for adding some information'      * import foobar        foobar.pluralize('word') # returns 'words'        foobar.pluralize('goose') # returns 'geese'        foobar.singularize('phenomena') # returns 'phenomenon'        ``` | `string`                                                | `'information'` |
-| `title` _(required)_ | `title`     | The title of the element                                                                                                                                                                                                                                                                                                                                         | `string`                                                | `undefined`     |
-| `visible`            | `visible`   | Component stays hidden unless this atribute is set to true.  ```        true  'for visible component'        false 'for hidden component'        *                                                                                                                                                                                                               | `boolean`                                               | `true`          |
+| Property             | Attribute   | Description                                                                                                                                                                                  | Type                                                    | Default         |
+| -------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------- |
+| `infoType`           | `info-type` | The atribute should have one of following values:  **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff) | `"critical" \| "information" \| "success" \| "warning"` | `'information'` |
+| `test`               | `test`      | ## Installation Use the package manager [pip](https://pip.pypa.io/en/stable/) to **`install`** foobar.                                                                                       | `string`                                                | `'information'` |
+| `title` _(required)_ | `title`     | The title of the element                                                                                                                                                                     | `string`                                                | `undefined`     |
+| `visible`            | `visible`   | Component stays hidden unless this atribute is set to true.  **false** - for something \|\|  **true** - for someting else \|\| `and another one`- here                                       | `boolean`                                               | `true`          |
 
 
 ----------------------------------------------

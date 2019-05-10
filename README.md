@@ -3,23 +3,23 @@
 
 ## Basic description
 
-this is some text as a description. the question is if it's going to stay?
+This is some text as a description. The question is if it's going to stay?
 
 Some list to test:
 - item 1
 - item 2
--- item 2.1
+- item 2.1
 
 <!-- Auto Generated Below -->
 
 
 ## Properties
 
-| Property             | Attribute | Description                     | Type      | Default     |
-| -------------------- | --------- | ------------------------------- | --------- | ----------- |
-| `test`               | `test`    |                                 | `boolean` | `false`     |
-| `title` _(required)_ | `title`   | (optional) displaying the title | `string`  | `undefined` |
-| `visible`            | `visible` | (required) displaying the title | `boolean` | `false`     |
+| Property             | Attribute | Description                                                                                                                                                               | Type      | Default         |
+| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------- |
+| `test`               | `test`    | The test should have one of following values: 'information'((default) only for information); 'warning' (for warning notification); 'critical' (for super important stuff) | `string`  | `'information'` |
+| `title` _(required)_ | `title`   | The title of the element                                                                                                                                                  | `string`  | `undefined`     |
+| `visible`            | `visible` | Component stays hidden unless this atribute is set to true. Component hiddes out when set to false                                                                        | `boolean` | `false`         |
 
 
 ----------------------------------------------

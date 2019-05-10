@@ -8,7 +8,12 @@ This is some text as a description. The question is if it's going to stay?
 Some list to test:
 - item 1
 - item 2
-- item 2.1
+    - item 2.1
+
+another test list:
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 <!-- Auto Generated Below -->
 

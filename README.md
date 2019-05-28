@@ -1,57 +1,32 @@
-# uc-side-drawer
+# snow-icon
 
-
-## Basic description
-
-This is some text as a description. The question is if it's going to stay?
-
-## How to use it
-### Do this:
-- [x] Finish my changes
-- [X] Push my commits to **GitHub**
-- [X] Open a pull request
-
-### Don't do this:
-- [] bla bla bla
-- [] never do that
-
-
-|To do:| Not to do:|
-|------|-----------|
-|jkjl jkjk | jjiojo jiojo jiojoij|
-|  | jjlkjl|
-|```diff |
-|+ this will be highlighted in green |
-|- this will be highlighted in red |
-|``` |
-
-------------------
-
-### Do this:
-```diff
-+ this will be highlighted in green
-+ this will be highlighted in red
-```
-
-### Don't do this:
-```diff
-- this will be highlighted in green
-- this will be highlighted in red
-```
-
+Some test description just to test
 
 <!-- Auto Generated Below -->
 
 
 ## Properties
 
-| Property             | Attribute   | Description                                                                                                                                                                                  | Type                                                    | Default         |
-| -------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------- |
-| `infoType`           | `info-type` | The atribute should have one of following values:  **'information'**((default) only for information);  **'warning'** (for warning notification);  **'critical'** (for super important stuff) | `"critical" \| "information" \| "success" \| "warning"` | `'information'` |
-| `test`               | `test`      | ## Installation Use the package manager [pip](https://pip.pypa.io/en/stable/) to **`install`** foobar.                                                                                       | `string`                                                | `'information'` |
-| `title` _(required)_ | `title`     | The title of the element                                                                                                                                                                     | `string`                                                | `undefined`     |
-| `visible`            | `visible`   | Component stays hidden unless this atribute is set to true.  **false** - for something \|\|  **true** - for someting else \|\| `and another one`- here                                       | `boolean`                                               | `true`          |
+| Property                 | Attribute    | Description                               | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Default     |
+| ------------------------ | ------------ | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| `dsSize`                 | `ds-size`    | Icon size in rem units                    | `number`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | `1`         |
+| `dsVariant` _(required)_ | `ds-variant` | Icon name - enter to display desired icon | `"generic_account_lock" \| "generic_account_log-in" \| "generic_account_log-out" \| "generic_account_unlock" \| "generic_account_user-check" \| "generic_account_user-minus" \| "generic_account_user-plus" \| "generic_account_user-x" \| "generic_account_user" \| "generic_account_users" \| "generic_general_academy" \| "generic_general_android" \| "generic_general_apple" \| "generic_general_book" \| "generic_general_bookmark" \| "generic_general_bullet-menu" \| "generic_general_" \| "generic_general_calendar" \| "generic_general_check-circle" \| "generic_general_check-square" \| "generic_general_check-thick" \| "generic_general_check" \| "generic_general_clock" \| "generic_general_connectivity-fill" \| "generic_general_connectivity-line" \| "generic_general_cost" \| "generic_general_delete" \| "generic_general_documentation" \| "generic_general_external-link" \| "generic_general_filter" \| "generic_general_filter-1" \| "generic_general_flag" \| "generic_general_globe" \| "generic_general_google-play" \| "generic_general_hash" \| "generic_general_home" \| "generic_general_inbox" \| "generic_general_info-thick" \| "generic_general_info" \| "generic_general_key" \| "generic_general_lightbulb" \| "generic_general_link-2" \| "generic_general_link-broken" \| "generic_general_link" \| "generic_general_list-circle" \| "generic_general_loader" \| "generic_general_menu" \| "generic_general_minus-square" \| "generic_general_minus" \| "generic_general_more-horizontal" \| "generic_general_more-vertical" \| "generic_general_plus-circle" \| "generic_general_plus-square" \| "generic_general_plus" \| "generic_general_search" \| "generic_general_settings" \| "generic_general_share-2" \| "generic_general_share" \| "generic_general_sliders" \| "generic_general_spinner-large" \| "generic_general_spinner-small" \| "generic_general_tag" \| "generic_general_trash" \| "generic_general_utility-hand" \| "generic_general_utility-pointer" \| "generic_general_version" \| "generic_general_warning" \| "generic_general_windows" \| "generic_general_wipe" \| "generic_general_x-circle" \| "generic_general_x-square" \| "generic_general_x-thick" \| "generic_general_x"` | `undefined` |
 
+
+## Dependencies
+
+### Used by
+
+ - [snow-button](..\button)
+ - [snow-description](..\building-blocks)
+
+### Graph
+```mermaid
+graph TD;
+  snow-button --> snow-icon
+  snow-description --> snow-icon
+  style snow-icon fill:#f9f,stroke:#333,stroke-width:4px
+```
 
 ----------------------------------------------
 
